@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Experiencia Recepciconal</title>
+	<link rel="stylesheet" type="text/css" href="Estilos/estilo_logueoER.css">
+	<script type="text/javascript" src="Scripts/modernizr.js"></script>
+	<script type="text/javascript" src="Scripts/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="Scripts/FuncionesAjax.js"></script>
+	<script type="text/javascript" src="Scripts/FuncionesjQuery.js"></script>	
+	<link href="imagenes/iconouv.ico" rel="shortcut icon" />	
+	<!--[if lt IE 9]>-->
+	<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<!--<![endif]-->	
+</head>
+<body>
+
+<script type="text/javascript">
+	document.getElementById('usuario').focus();
+	$('#usuario').focus();
+</script>
+
+	<section id="engloba">
+
+		<aside id="seccionizq">
+
+<section id="imagentit">
+<img id="imagener" src="Imagenes/Logouv2.png" style="display:none;">
+</section>
+
+		</aside>
+
+		<aside id="seccionder">
+
+			<section id="titulo" style="display:none;"> EXPERIENCIA RECEPCIONAL</section>
+
+			<section id="logueo" style="display:none;">
+
+			<form method="post" id="formlogueo" name="formlogueo" action="Scripts/logueo.php">
+					<table>
+						<section class="tabla-login">
+						<thead>
+							<tr><input type="hidden" id="tipo" name="tipo" value="EXP"/>
+								<td><input type="text" class="cajatexto" id="usuario" name="usuario" autofocus="autofocus" placeholder="Usuario"/></td>
+							</tr>
+						</thead>
+
+						<tbody>
+							<tr>
+								<td><input class="cajatexto" type="password" id="password" name="password" placeholder="********" /></td>
+							</tr>
+						</tbody>
+						
+							<tr>
+								<td><input type="image" src="Imagenes/next.png" name="botonentra" id="botonentra" title="ENTRAR"/></td>
+							</tr>
+</section>
+
+					</table>
+				</form>					
+				
+
+			</section>
+
+		</aside>
+
+	</section>
+	
+		<section id="transaccion"></section>
+
+</body>
+</html>

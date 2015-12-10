@@ -1,0 +1,269 @@
+@charset "utf-8";
+/*Autor:Victor Javier Báez Morales*/
+#cuerpo{
+	text-align:center;
+}
+
+
+
+/* Start Section  Search */
+
+#lbltitbusca{
+	color: #033662;/*azul fuerte*/
+	font-size:18px;
+	font-weight: bold;
+
+}
+
+#textfilbusca{
+	width:200px;
+	height:25px;
+	text-transform: uppercase;
+	margin-bottom:30px;
+}
+
+#tablabuscar{
+	margin-top:80px;
+	
+}
+
+.titbuscar{
+	font-weight: bold;
+			/*background:#7ea6c9;*/
+			background:#005baa;
+			color:#fff;
+}
+.textfiltab{
+	border:0px solid #bed3e4 ;
+	background:none;
+}
+
+.titulo_tabla td{
+	padding: 25px 5px 25px 5px;
+}
+
+.cont_tabla {
+	/*background:#bed3e4;*/
+	background:#b3d5f2;
+
+}
+
+/*ilumina fila*/
+ 		.cont_tabla tr:hover, .textfiltab:hover{
+			background:#e2edf7;
+			
+			/*cursor: pointer;*/
+		}
+/*ilumina celda de la fila*/
+		.cont_tabla td:hover, .textfiltab:hover{
+		  background-color:#9ac3e6;
+		   
+		}
+		
+		tr, td, th, .textfiltab{
+			padding: 5px 5px 5px 5px;
+		}
+
+		th{
+			padding: 10px 5px 10px 5px;
+		}
+
+		#mensajebusca{
+			background:#f9f69f;/*amarillo claro para alerta*/
+		}
+
+/* finish Section  Search */
+
+
+
+
+
+
+
+/*   Start  Formulario */
+
+#formulario_datos{
+
+}
+
+#titformulintro{
+		font-weight: bold;
+			color:#233e56;
+			margin-bottom:40px;
+}
+
+#fieldset_datos{
+	border:3px solid #00ab4f;
+	width:600px;
+	box-shadow: 0 5px 7px 1px #c0e2d0;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom:100px;
+}
+
+.titform{
+	text-align:right;
+	padding: 0px 10px 0px 0px;
+	font-size:18px;
+	color: #005baa;
+
+}
+
+.textform{
+	width:300px;
+	height:25px;
+	text-transform:uppercase;
+}
+
+.textform_mail{
+	width:300px;
+	height:25px;
+}
+
+.textformcorreo{
+	width:300px;
+	height:25px;
+}
+
+.legendform{
+	font-weight: bold;
+	background:#005baa;
+	color: #fff;
+	border-radius:5px 5px 5px 5px;
+	padding: 5px 10px 5px 10px;
+	margin-left:20px;
+	box-shadow: 0 5px 7px 1px #9dcaf1;
+	border:3px solid #044f91;
+	cursor: pointer;
+}
+
+.tabla_form{
+	margin-top:30px;
+	margin-bottom:40px;
+}
+
+.opciones{
+text-align:center;
+}
+
+.selectopcion{
+	text-align:center;
+	width:300px;
+	height:25px;
+	color: #005baa;
+}
+
+
+/*   Finish  Formulario */
+
+
+
+
+/* start  Listado*/
+
+.celdaform{
+	background:#bed3e4;
+}
+
+
+/*finis listado */
+
+
+
+
+
+
+
+
+
+/*conteniene el diseño de pregunta jquery*/
+
+.question {
+	position: absolute;
+	display: inline;
+	text-align: center;
+	width: 174px;
+	height: 78px;
+	font-size: 13px;
+	line-height: 1.5em;
+	background: url('../imagenes/bubble.png') left top no-repeat;
+	padding: 10px 0 0 0;
+	text-shadow: 0px 1px 0px #000;
+	margin-left: -7em;
+	margin-top: -6em;
+	opacity: 0;
+}
+
+.yes, .cancel {
+	margin-top: .5em;
+	margin-right: .5em;
+	cursor: pointer;
+	display: inline-block;
+	width: 63px;
+	height: 21px;
+	color: #0b253b;
+	background: #fff url('../imagenes/button.png') left top no-repeat;
+}
+
+.title {
+	font-size: 30px;
+	margin-bottom: 1.5em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a, a:visited, a:hover {
+	text-decoration: none;
+	color: #000;
+}
+/*fin del comntenedor de strilo de jquery*/
+
+
+
+
+/*estyle of pagination list */
+
+	#barra_pagina{
+			background:#005baa;
+			color:#fff;
+			width:800px;
+		}
+
+		#primero{
+			/*background:#a21;*/
+			background:#005baa;
+			color:#fff;
+		}
+
+		#anterior{
+			/*background:#af3;*/
+			background:#005baa;
+			color:#fff;
+		}
+
+		#paginas{
+			/*background:#ac1;*/
+			background:#005baa;
+			color:#fff;
+		}
+
+		#siguiente{
+			/*background:#acc;*/
+			background:#005baa;
+			color:#fff;
+		}
+
+		#ultimo{
+			/*background:#ad1;*/
+			background:#005baa;
+			color:#fff;
+		}
+		
+		
+		.pag{
+			padding: 0px 20px 0px 20px;
+			/*position: static/relative/absolute/fixed;*/
+			position: relative;
+		}		
+
+
+

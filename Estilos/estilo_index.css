@@ -1,0 +1,337 @@
+/*
+body{
+	background:#f8f8f8;
+	display: block;
+}
+
+
+body, section, header, table{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#cabecera{
+	width:600px;
+	height:205px;
+	position: static;
+	margin-bottom:70px;
+}
+
+#imagen_cat{
+	float:left;		  
+}
+
+#imagen_uv{
+	float:right;	   
+}
+
+#baner{
+	width:100%;
+	height:auto;
+	background:#e9eaf2;
+	background: -moz-linear-gradient(top,  rgba(237,237,237,0.56) 0%, rgba(0,0,0,0) 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(237,237,237,0.56)), color-stop(100%,rgba(0,0,0,0))); 
+background: -webkit-linear-gradient(top,  rgba(237,237,237,0.56) 0%,rgba(0,0,0,0) 100%); 
+background: -o-linear-gradient(top,  rgba(237,237,237,0.56) 0%,rgba(0,0,0,0) 100%);
+background: -ms-linear-gradient(top,  rgba(237,237,237,0.56) 0%,rgba(0,0,0,0) 100%); 
+background: linear-gradient(top,  rgba(237,237,237,0.56) 0%,rgba(0,0,0,0) 100%);
+}
+#franja_azul{
+	width:100%;
+	height:30px;
+	background:#005baa;
+	float: right;
+	border-radius:40px 20px 0px 0px; 
+	 -moz-border-radius:40px 20px 0px 0px; 
+	 -moz-border-radius:40px 20px 0px 0px;
+	 -webkit-border-radius:40px 20px 0px 0px;
+	 -o-border-radius:40px 20px 0px 0px;
+	 -khtml-border-radius:40px 20px 0px 0px;
+
+}
+
+#franja_verde{
+	width:100%;
+	height:10px;
+	background:#00ab4f;
+	border-radius:2px 0em 0em 0em; 
+	float: right;
+}
+
+
+
+#cuerpo{
+	width:500px;
+	height:300px;
+	border-radius:3em 1em;
+	-moz-border-radius:3em 1em;
+	-khtml-border-radius:3em 1em;
+	-webkit-border-radius:40px 20px 40px 20px;
+	-o-border-radius:3em 1em;
+	background:rgb(0,0,0,.5);
+	-moz-box-shadow: 0 0 6px 4px #888;
+	-webkit-box-shadow: 0 0 6px 4px #888;
+	box-shadow: 0 0 6px 4px #888;
+
+background: rgb(214,214,214); 
+background: -moz-linear-gradient(top,  rgba(214,214,214,1) 0%, rgba(219,219,219,1) 50%, rgba(211,211,211,1) 51%, rgba(254,254,254,1) 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,214,214,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(51%,rgba(211,211,211,1)), color-stop(100%,rgba(254,254,254,1))); 
+background: -webkit-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(219,219,219,1) 50%,rgba(211,211,211,1) 51%,rgba(254,254,254,1) 100%); 
+background: -o-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(219,219,219,1) 50%,rgba(211,211,211,1) 51%,rgba(254,254,254,1) 100%); 
+background: -ms-linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(219,219,219,1) 50%,rgba(211,211,211,1) 51%,rgba(254,254,254,1) 100%);
+background: linear-gradient(top,  rgba(214,214,214,1) 0%,rgba(219,219,219,1) 50%,rgba(211,211,211,1) 51%,rgba(254,254,254,1) 100%); 
+}
+
+#logeo{
+	padding: 80px 0px 0px 0px;
+}
+
+
+
+.lbl{
+	font-size:1.6em;
+	color: #4f554e;
+	text-shadow: #aaa3a3 2px 2px 2px;
+
+}
+
+.textfil{
+	width:200px;
+	height:25px;
+	color: #005baa;
+	font-size:1.1em;
+	text-align:center;
+	border-radius:5px 5px 5px 5px ;
+	-moz-border-radius:5px 5px 5px 5px ;
+	-khtml-border-radius:5px 5px 5px 5px ;
+	-webkit-border-radius:5px 5px 5px 5px ;
+	-o-border-radius:5px 5px 5px 5px ;
+}
+
+#usu{
+
+}
+
+#usuario{
+	margin-bottom:20px;
+}
+
+.boton{
+	font-size:1.2em;
+	width:120px;
+	height:40px;
+	text-shadow: #aaa3a3 2px 2px 2px;
+	color: #2f3446;
+	border-radius:8px 8px 8px 8px ;
+	-moz-border-radius:8px 8px 8px 8px ;
+	-khtml-border-radius:8px 8px 8px 8px ;
+	-webkit-border-radius:8px 8px 8px 8px ;
+	-o-border-radius:8px 8px 8px 8px ;
+	margin-top:20px;
+	float:right;
+	background: rgb(246,248,249); 
+background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); 
+background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); 
+background: -o-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); 
+background: -ms-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); 
+background: linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); 
+}
+
+
+.boton:hover{
+	color: #3f433e;
+background: rgb(245,246,246); 
+background: -moz-linear-gradient(top,  rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(245,246,246,1)), color-stop(21%,rgba(219,220,226,1)), color-stop(49%,rgba(184,186,198,1)), color-stop(80%,rgba(221,223,227,1)), color-stop(100%,rgba(245,246,246,1)));
+background: -webkit-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);
+background: -o-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%);
+background: -ms-linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); 
+background: linear-gradient(top,  rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); 
+
+}
+
+
+.refreg{
+	color: #96969d;
+	text-align:right;
+	float: right;
+	margin-top:40px;
+	margin-right:50px;
+	position: relative;
+}
+.refreg:hover{
+	color: #494b45;
+}
+*/
+/*Autor:Victor Javier Báez Morales*/
+
+*{
+	padding: 0;
+	margin: 0px;
+	font-family: "Segoe UI";
+}
+
+body{
+	display: block;
+	/*background:#00ab4f;/*Verde UV*/
+	/*background:#069C4B;/*Verde UV*/
+	background:#069C4B;/*Verde UV*/
+	/*background:#ABACB3;*/
+}
+
+
+section,footer,nav,header,table{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+/********************  Placeholder ********************/
+::-webkit-input-placeholder { color:#999; }
+:-moz-placeholder { color:#999; }
+:-ms-input-placeholder { color:#999; }
+.placeholder { color:#999; } /* from the polyfill */
+/******************************************************/
+
+
+
+
+#seccionizq{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: #005baa;/*Azul UV*/
+	display: inline-block;	
+	position: fixed;
+	/*background:#069C4B;/*Verde UV*/
+/*    background: -webkit-radial-gradient(#fff, #005baa);
+    background: -moz-radial-gradient(#fff, #005baa);
+	background-image: url("../Imagenes/Logouv2.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:45%;	*/
+	/*border: 2px dashed #fff ;*/ 
+}
+
+#seccionder{
+	display: inline-block;	
+	float: right;
+	width: 50%;
+	height: 100%;
+	/*background:#ABACB3;*/
+	background:#069C4B;/*Verde UV*/
+	/*border: 2px dashed #fff ;*/
+}
+
+
+#imagentit{
+	text-align: center;
+	margin-top:27%;
+}
+#imagener{
+	text-align: center;
+	width: 25%;	
+}
+
+#imagentit2{
+	text-align: center;
+	margin-top:30%;
+}
+#imagener2{
+	text-align: center;
+	width: 25%;	
+}
+
+th{
+	font-size: 15px;
+}
+
+.titulo{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 5%;
+	/*text-shadow: 5px 5px 5px #000;*/
+}
+
+
+#logueo{
+	width: 100%;
+	height: 30%;
+	margin-top: 10%;
+	position:relative;
+}
+
+
+label{
+	color: #ffffff;
+}
+
+.cajatexto{
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 9%; 
+    font-size: 19px;
+}
+
+#botonentra{
+	width: 15%;
+	float: right;
+	/*font-size: 15px;*/
+	/*background:#053b6a;*/
+	/*color: #fff;*/
+	/*border-radius: 5px;*/
+	/*border: 1px solid #052642;*/
+}
+/*
+#botonentra:hover{
+	width: 80%;
+	float: right;
+	font-size: 20px;
+	background:#052642;
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #053b6a;
+	cursor: pointer;
+	box-shadow: 1px 1px 10px #fff;
+}
+*/
+.tabla-login{
+	
+	bottom: 50px;
+}
+
+/*
+#tabla{
+ 	border:1px solid #f2e1bf;
+ 	width:60%;
+ 	height: 50%;
+   background: #ccc; 
+padding-top: 5%;
+}
+
+#celda{
+	margin:2px 2px 2px 2px;
+    float:left;
+    width:30%;
+    height:20%;
+    text-align:center;
+    background-color:#cdc;
+
+}
+
+
+
+
+#celda2{
+	margin:2px 2px 2px 2px;
+    float:left;
+    width:50%;
+    height:20%;
+    text-align:center;
+    background-color:#cdc;
+}*/
+

@@ -1,0 +1,237 @@
+
+body{
+	background:#f8f8f8;
+	display: block;
+
+}
+
+
+body, section, header, table, nav, aside, footer, fieldset{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+#engloba_cuerpo section, table, nav, aside, footer{
+ font-family: Arial, "MS Trebuchet", sans-serif;
+
+}
+
+input{
+	text-align:center;
+	 color: #005baa;
+}
+
+
+
+*{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+/******* Start Header ******/
+#baner{
+	width:100%;
+	height:auto;
+	background:#e9eaf2;
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0,#FFF ), color-stop(1, #a9a9aa));  
+    background-image:-webkit-linear-gradient(#FFF,#a9a9aa);  
+    background-image:-moz-linear-gradient(top,#FFF,#a9a9aa);/* #B8E0ED, #F0F9F9*/  
+    background-image:-o-linear-gradient(top,#FFF,#a9a9aa);  
+}
+
+	#cabecera{
+		width:1000px;
+		height:180px;
+		position: static;
+		padding: 20px 0px 0px 0px;
+	}
+
+
+		#imagenes{
+		width:900px;
+		position: static;
+		}
+
+			#imagen_cat{
+				float:left;		  
+			}
+
+			#imagen_uv{
+				float:right;	   
+			}
+
+			#titulocat{
+				margin-left:160px;
+				margin-top:50px;
+				position: absolute;
+				font-size:45px;
+				text-shadow: #DDD 1px 1px 2px;
+			}
+
+
+
+
+/********* Section of Notification ********/
+#engloba_notificacion{
+	width:100%;
+	height:auto;
+	background:#00ab4f;/*Color Verde UV */
+
+
+}
+
+	#notificaciones{
+		width:1000px;
+		height:30px;
+		background:#0cbb5d;
+	}
+		.bienvenida{
+			float: left;
+			margin-top:5px;
+			margin-left:5px;
+			color: #cdf5df;
+			font-family: Arial, "MS Trebuchet", sans-serif;
+		}
+
+		.bienvenida:hover{
+			text-shadow: #DDD 1px 1px 2px;
+		}
+
+
+
+		.salir{
+			float: right;
+			margin-right:20px;
+			margin-top:5px;
+			color: #9ce1bb;
+			
+		}
+
+		.salir:hover{
+			color: #cdf5df;
+			text-shadow: #DDD 1px 1px 2px;
+		}
+
+		a {
+			list-style: none;
+			text-decoration:none;
+			cursor: pointer;
+		}
+
+/********* finished Section of Notification ********/
+
+
+
+
+/*****  Start Section of Main Menu  *****/
+#global_menu{
+	width:100%;
+	background:#005baa;/*Color Azul UV*/
+	box-shadow: 0 5px 7px 1px #9dcaf1;
+}
+
+	#marco_menu{
+		width:1000px;
+		height:50px;
+		background:#0d69b8;
+		position: static;	
+	}
+
+	ul{
+		list-style: none;
+		text-decoration:none;
+		padding: 0px 0px 0px 20px;
+	}
+
+		li{
+			float:left;
+			height:50px;
+			padding: 15px 10px 0px 10px;
+			color: #fff;
+			font-family: Arial, "MS Trebuchet", sans-serif;
+		}
+
+
+			a li:hover{
+				height:40px;
+				background:#044b89;
+				border-radius:0px 0px 10px 10px;	
+			}
+
+				.select{
+					background:#044b89;
+					border-radius:0px 0px 10px 10px;
+					border:3px solid #033663;
+					font-weight: bold;
+					box-shadow: 0 0 7px 1px #9dcaf1;
+				}
+
+				a #po1:focus,a #po7:focus {
+					background:#044b89;
+					border-radius:0px 0px 10px 10px;
+					border:3px solid #033663;
+					font-weight: bold;
+					box-shadow: 0 0 7px 1px #9dcaf1;
+				}
+
+
+	/*****  Finished Section of Main Menu  *****/
+/******* Finished Header ******/
+
+
+
+
+
+
+
+
+/***** Starter body ******/
+#engloba_cuerpo{
+	width:1000px;
+	height:auto;
+	background:#e6e6e4;
+	position: static;
+	box-shadow: 0 5px 7px 1px #cdd2d5;
+	border-radius:0px 0px 10px 10px;
+	border-right:1px solid #bdc2c6;
+	border-left:1px solid #bdc2c6;
+	border-bottom:1px solid #bdc2c6;
+}
+
+#cuerpo{
+	
+	padding: 60px 10px 50px 10px;
+}
+
+
+/*** finish body ***/
+
+
+
+
+
+
+
+
+/********* Starter Section of Footer *********/
+#pie_pagina{
+	width:1000px;
+	text-align:center;
+}
+	
+	#pie{
+		padding: 30px 0px 10px 0px;
+		color: #00ab4f;
+	}
+
+	#pie a{
+		color: #00ab4f;
+	}
+
+	#pie a:hover{
+		color: #096d37;
+	}	
+/********* Finished Section of Footer *********/
+/*Autor:Victor Javier Báez Morales*/
